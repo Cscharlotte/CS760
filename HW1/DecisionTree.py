@@ -194,8 +194,8 @@ def sktrain(X,y):
     print(nodes)
     print(errs)
     sns.lineplot(x=num, y=errs)
-    plt.xlabel('Error')
-    plt.ylabel('Y-axis')
+    plt.xlabel('Training size')
+    plt.ylabel('Error')
 
 
 def drawboundary(D, split_history):
@@ -229,8 +229,8 @@ def Dbigplots(D):
         errs.append(err)
     print(nodes)
     sns.lineplot(x=num, y=errs)
-    plt.xlabel('Error')
-    plt.ylabel('Y-axis')
+    plt.xlabel('Traning size')
+    plt.ylabel('Error')
 
 # D = readfile('\\Dbig.txt')
 # X,y = sklearn_read('\\Dbig.txt')
